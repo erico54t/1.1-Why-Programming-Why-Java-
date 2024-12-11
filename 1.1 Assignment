@@ -1,2 +1,19 @@
-System.out.println("Hello");
-System.out.print("World");
+public class 1.1 {
+
+	public static void main(String[] args) {
+
+int x = 3;
+double y = 5.5;
+System.out.println("Is 3+5.5 equal to 8.5?");
+Boolean z = true;
+System.out.println(x+y);
+System.out.println(z);
+x = 4;
+System.out.println("Is 4+5.5 equal to 10.5?");
+System.out.println(x+y);
+z = false;
+System.out.print(z);
+
+	}
+
+}
